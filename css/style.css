@@ -61,7 +61,7 @@ img{
 .text{
   align-self: center;
   max-height: 40vh;
-  overflow: auto;
+  overflow: scroll;
 }
 
   /*Add the media query here.  Make sure to */
@@ -102,8 +102,8 @@ img{
   }
 
   /* Requirement 15 code here -- Do not remove this comment. */
-  img{
-    max-height: 100%;
+  .about-image, .clients-image, .method-image, .contact-image{
+    overflow: hidden;
   }
 }
 
